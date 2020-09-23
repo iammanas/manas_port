@@ -14,7 +14,7 @@ Life is beautiful
 {{< instagram Bm0l1utFgL0 hidecaption >}}
 
 <br>
-
+	
 ---
 
 ## CI/CD using Docker and Gitlab

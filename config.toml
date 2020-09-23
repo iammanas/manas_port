@@ -58,14 +58,14 @@ theme_color = "#41228e"
 # contact info
 phone = "+919439034452"
 email = "iammanas24@gmail.com"
-address = "Hyderabad"
+address = "Ayappa Society Road No:48 Hyderabad"
 # meta description
 author = "Manas Ranjan Pati"
 description = "This is meta description"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 by [Manas Ranjan Pati](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 by [Manas Ranjan Pati](https://github.com/Manasranjanpati)"
 
 
 # preloader

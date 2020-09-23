@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on Manas Ranjan Pati</title>
-    <link>http://examplesite.com/categories/design/</link>
+    <link>https://maniablog.netlify.app/categories/design/</link>
     <description>Recent content in design on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="http://examplesite.com/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://maniablog.netlify.app/categories/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artwork Design</title>
-      <link>http://examplesite.com/portfolio/project-1/</link>
+      <link>https://maniablog.netlify.app/portfolio/project-1/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>http://examplesite.com/portfolio/project-1/</guid>
+      <guid>https://maniablog.netlify.app/portfolio/project-1/</guid>
       <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Artwork Design</title>
-      <link>http://examplesite.com/portfolio/project-4/</link>
+      <link>https://maniablog.netlify.app/portfolio/project-4/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>http://examplesite.com/portfolio/project-4/</guid>
+      <guid>https://maniablog.netlify.app/portfolio/project-4/</guid>
       <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Artwork Design</title>
-      <link>http://examplesite.com/portfolio/project-6/</link>
+      <link>https://maniablog.netlify.app/portfolio/project-6/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>http://examplesite.com/portfolio/project-6/</guid>
+      <guid>https://maniablog.netlify.app/portfolio/project-6/</guid>
       <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     

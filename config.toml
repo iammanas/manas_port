@@ -71,7 +71,7 @@ copyright = "Copyright &copy; 2020 by [Manas Ranjan Pati](https://gethugothemes.
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use png, jpg, svg or gif format
+preloader = "images/gig.gif" # use png, jpg, svg or gif format
 
 # contact
 [params.contact]

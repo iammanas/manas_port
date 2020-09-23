@@ -1,0 +1,3 @@
+[submodule "themes/manas"]
+	path = themes/manas
+	url = https://github.com/themefisher/kross-hugo.git

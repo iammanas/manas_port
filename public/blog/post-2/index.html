@@ -118,12 +118,12 @@
       <div class="row justify-content-center">
         <div class="col-lg-9 text-center mb-4">
           <img src="https://maniablog.netlify.app/images/blog/post-2.jpg" alt="Django generic relations" class="img-fluid rounded mb-4">
-          <p class="font-secondary">Published on May 12, 2019 by <span class="text-primary">Manas Ranjan Pati</span></p>
+          <p class="font-secondary">Published on May 12, 2020 by <span class="text-primary">Manas Ranjan Pati</span></p>
         </div>
         <div class="col-lg-9">
           <div class="content">
             <p><strong>Introduction</strong></p>
-<p>Hello and welcome. Today we will learn how to comment using django default Generic Relations or
+<p>Hello and welcome. Today we will learn how to comment in django application using django default Generic Relations or
 Generic Foreignkey.</p>
 <p>In django we all know that to relate any models we can use OneToOne,ManyToOne and ForegnKey relationships. For posting comment to other model we generally used ForeignKey. But today we will learn how to make it possible.</p>
 <p>Above is the basic things we give to a model.py file. For validation we have to use decorators and inbuilt django features.</p>
@@ -137,24 +137,37 @@ Generic Foreignkey.</p>
 <ol>
 <li>Creating a folder <code>project</code></li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> mkdir ManasBlog
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> mkdir ManasBlog
 manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> cd ManasBlog
+
 </code></pre></div><p>After moving inside the project directory we have create virtualenv for our project.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> virtualenv <span style="color:#f92672">-</span>p python3 venv
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> virtualenv <span style="color:#f92672">-</span>p python3 venv
+
 </code></pre></div><p>Its time to install django in our virtualenv i.e venv. Install any one according to your choice.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> pip install django <span style="color:#f92672">|</span> pip install django<span style="color:#f92672">==</span><span style="color:#ae81ff">2.2</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> pip install django <span style="color:#f92672">|</span> pip install django<span style="color:#f92672">==</span><span style="color:#ae81ff">2.2</span>
+
 </code></pre></div><p>As we installed Django by using pip its time to create our django project and for that we have to type following command.</p>
 <p>Note: Below commant will create the following tree where we can configure settings.py and urls.py according to our requirements.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> django<span style="color:#f92672">-</span>admin startproject blog
-</code></pre></div><pre><code>blog
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> django<span style="color:#f92672">-</span>admin startproject blog
+
+</code></pre></div><pre><code>
+blog
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
+
 </code></pre><p>After this we have to create an application as we know django is all about applications. So moving on use below command to create an application.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py startapp blogapp
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py startapp blogapp
+
 </code></pre></div><p>Noew open ManasBlog folder in any IDE&rsquo;s and you will see the tree like below.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">ManasBlog
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">
+ManasBlog
 |-blog
 ├── blogapp
 │   ├── admin.py
@@ -178,7 +191,8 @@ manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</spa
 
 </code></pre></div><p>After creating an application, we should aware Django that it should use it. We do that in the file blog/settings.py &ndash; open it in your code editor. We need to find <code>INSTALLED_APPS</code> and add a line containing <code>'blogapp.apps.BlogConfig'</code>, just above ( ] ). So the final product should look like this:</p>
 <p>blog/settings.py</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">INSTALLED_APPS <span style="color:#f92672">=</span> [
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+INSTALLED_APPS <span style="color:#f92672">=</span> [
     <span style="color:#e6db74">&#39;django.contrib.admin&#39;</span>,
     <span style="color:#e6db74">&#39;django.contrib.auth&#39;</span>,
     <span style="color:#e6db74">&#39;django.contrib.contenttypes&#39;</span>,
@@ -187,8 +201,10 @@ manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</spa
     <span style="color:#e6db74">&#39;django.contrib.staticfiles&#39;</span>,
     <span style="color:#e6db74">&#39;blog.apps.BlogConfig&#39;</span>,
 ]
+
 </code></pre></div><p>Its time to create a model for our blog so that it will store the data in to the database when we do operations. So now open models.py file which will be in our app that is <code>blogapp</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> django.conf <span style="color:#f92672">import</span> settings
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#f92672">from</span> django.conf <span style="color:#f92672">import</span> settings
 <span style="color:#f92672">from</span> django.db <span style="color:#f92672">import</span> models
 <span style="color:#f92672">from</span> django<span style="color:#f92672">-</span>utils <span style="color:#f92672">import</span> timezone
 
@@ -208,29 +224,36 @@ publish_date <span style="color:#f92672">=</span> models<span style="color:#f926
 
 <span style="color:#66d9ef">def</span> __str__(self):
     <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>first_name  <span style="color:#75715e">#manasblog</span>
+
 </code></pre></div><p>Its looks confusing right but don&rsquo;t worry my friend everything will gonna be chakachak. So now open ternminal and go our project directory and do the following.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span>cd ManasBlog
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~</span><span style="color:#960050;background-color:#1e0010">$</span>cd ManasBlog
 manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#960050;background-color:#1e0010">$</span> source venv<span style="color:#f92672">/</span>bin<span style="color:#f92672">/</span>activate
 (venv) manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#960050;background-color:#1e0010">$</span> cd blog
 (venv) manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#f92672">/</span>blog<span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py makemigrations
 (venv) manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#f92672">/</span>blog<span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py migrate
+
 </code></pre></div><p>Dont worry i will tell you the reason of using makemigrations and migrate</p>
-<ol>
-<li>makemigrations will collect the data from models.py and it will store in migrations folder by creating 0001_initial.py (Note: For each change in models file it will create a migration file)\</li>
-</ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">(venv) manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#f92672">/</span>blog<span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py makemigrations
+<blockquote>
+<p>Makemigrations will collect the data from models.py and it will store in migrations folder by creating 0001_initial.py (Note: For each change in models file it will create a migration file)\</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+(venv) manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#f92672">/</span>blog<span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py makemigrations
 Migrations <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#39;blog&#39;</span>:
   blog<span style="color:#f92672">/</span>migrations<span style="color:#f92672">/</span><span style="color:#ae81ff">0001</span>_initial<span style="color:#f92672">.</span>py:
   <span style="color:#f92672">-</span> Create model Post
-</code></pre></div><ol start="2">
-<li>migrate will take the data from 0001_initial.py folder and it will create a table in our database.</li>
-</ol>
-<pre><code>(venv) manas@dell:~/ManasBlog/blog$ python manage.py makemigrations
+
+</code></pre></div><blockquote>
+<p>Migrate will take the data from 0001_initial.py folder and it will create a table in our database.</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+(venv) manas<span style="color:#a6e22e">@dell</span>:<span style="color:#f92672">~/</span>ManasBlog<span style="color:#f92672">/</span>blog<span style="color:#960050;background-color:#1e0010">$</span> python manage<span style="color:#f92672">.</span>py makemigrations
 Operations to perform:
   Apply all migrations: blogapp
 Running migrations:
-  Applying blog.0001_initial... OK
-</code></pre><p>Chakachak! Our post created and the data is stored in database. I used default django database i.e sqlite3 but you can use other database like mysql,PostgreSQL,MongoDB.</p>
+  Applying blog<span style="color:#f92672">.</span><span style="color:#ae81ff">0001</span>_initial<span style="color:#f92672">...</span> OK
+
+</code></pre></div><p>Chakachak! Our post created and the data is stored in database. I used default django database i.e sqlite3 but you can use other database like mysql,PostgreSQL,MongoDB.</p>
 <p>Plese ping me to my mail <a href="mailto:iammanas24@gmail.com">iammanas24@gmail.com</a> for any queries and inspire me to do more. Thank you  !</p>
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Django models"
-date: 2019-05-12
+date: 2020-06-12
 image: "images/blog/post-5.jpg"
 description: "This is meta description."
 draft: false
@@ -35,30 +35,35 @@ Above is the basic things we give to a model.py file. For validation we have to 
 
 **Creating an Application**
 
->Install Python 3.6.8
+*Install Python 3.6.8*
+
+*Install Virtualenv (using latestpip)*
 
 
->Install Virtualenv (using latestpip)
-
-
-1. Creating a folder `project`
+Creating a folder `project`
 
 ``` python
+
 manas@dell:~$ mkdir ManasBlog
 manas@dell:~$ cd ManasBlog
+
 ```
 After moving inside the project directory we have create virtualenv for our project.
 
 
 ``` python
+
 manas@dell:~$ virtualenv -p python3 venv
+
 ```
 
 Its time to install django in our virtualenv i.e venv. Install any one according to your choice.
 
 
 ``` python
+
 manas@dell:~$ pip install django | pip install django==2.2
+
 ```
 
 As we installed Django by using pip its time to create our django project and for that we have to type following command.
@@ -66,27 +71,34 @@ As we installed Django by using pip its time to create our django project and fo
 Note: Below commant will create the following tree where we can configure settings.py and urls.py according to our requirements.
 
 ``` python
+
 manas@dell:~$ django-admin startproject blog
+
 ```
 
 ``` text
+
 blog
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
+
 ```
 
 After this we have to create an application as we know django is all about applications. So moving on use below command to create an application.
 
 
 ``` python
+
 manas@dell:~$ python manage.py startapp blogapp
+
 ```
 
 Noew open ManasBlog folder in any IDE's and you will see the tree like below.
 
 ``` text
+
 ManasBlog
 |-blog
 ├── blogapp
@@ -116,6 +128,7 @@ After creating an application, we should aware Django that it should use it. We 
 blog/settings.py
 
 ``` python
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -125,6 +138,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
 ]
+
 ```
 
 Its time to create a model for our blog so that it will store the data in to the database when we do operations. So now open models.py file which will be in our app that is **blogapp**.
@@ -166,7 +180,7 @@ manas@dell:~/ManasBlog$ source venv/bin/activate
 
 Dont worry i will tell you the reason of using makemigrations and migrate
 
-1. makemigrations will collect the data from models.py and it will store in migrations folder by creating 0001_initial.py (Note: For each change in models file it will create a migration file).
+>Makemigrations will collect the data from models.py and it will store in migrations folder by creating 0001_initial.py (Note: For each change in models file it will create a migration file).
 
 ``` python
 (venv) manas@dell:~/ManasBlog/blog$ python manage.py makemigrations
@@ -175,7 +189,7 @@ Migrations for 'blog':
   - Create model Post
 ```
 
-2. Migrate will take the data from 0001_initial.py folder and it will create a table in our database.
+>Migrate will take the data from 0001_initial.py folder and it will create a table in our database.
 
 ``` python
 (venv) manas@dell:~/ManasBlog/blog$ python manage.py makemigrations
@@ -189,4 +203,4 @@ Running migrations:
 Our post created and the data is stored in database. I used default django database i.e sqlite3 but you can use other database like mysql,PostgreSQL,MongoDB.
 
 
-Plese ping me to my mail manasranjanpati94@gmail.com for any queries and inspire me to do more. Thank you  !
+Plese ping me to my mail iammanas24@gmail.com for any queries and inspire me to do more. Thank you  !

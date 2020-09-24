@@ -6,25 +6,25 @@
     <description>Recent content in Blog on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://maniablog.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Django generic relations</title>
-      <link>https://maniablog.netlify.app/blog/post-2/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://maniablog.netlify.app/blog/post-2/</guid>
-      <description>Introduction
-Hello and welcome. Today we will learn how to comment using django default Generic Relations or Generic Foreignkey.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://maniablog.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django models</title>
       <link>https://maniablog.netlify.app/blog/post-1/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://maniablog.netlify.app/blog/post-1/</guid>
       <description>Introduction
 In this tutorial, we will create the Django models that define the fields and behaviors of the Blog application data that we will be storing.</description>
+    </item>
+    
+    <item>
+      <title>Django generic relations</title>
+      <link>https://maniablog.netlify.app/blog/post-2/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maniablog.netlify.app/blog/post-2/</guid>
+      <description>Introduction
+Hello and welcome. Today we will learn how to comment in django application using django default Generic Relations or Generic Foreignkey.</description>
     </item>
     
     <item>

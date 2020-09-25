@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://maniablog.netlify.app/"
+baseURL = "https://manasranjanpati.netlify.app/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "manas"

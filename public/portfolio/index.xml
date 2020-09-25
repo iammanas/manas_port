@@ -2,99 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Manas Ranjan Pati</title>
-    <link>https://maniablog.netlify.app/portfolio/</link>
+    <link>https://manasranjanpati.netlify.app/portfolio/</link>
     <description>Recent content in Portfolio on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://maniablog.netlify.app/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://manasranjanpati.netlify.app/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-1/</link>
+      <link>https://manasranjanpati.netlify.app/portfolio/project-1/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/portfolio/project-1/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
+      <guid>https://manasranjanpati.netlify.app/portfolio/project-1/</guid>
+      <description>Project Requirements Coming Soon Chakachak
+Project Details Coming Soon Chakachak</description>
     </item>
     
     <item>
       <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-2/</link>
+      <link>https://manasranjanpati.netlify.app/portfolio/project-3/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/portfolio/project-2/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
+      <guid>https://manasranjanpati.netlify.app/portfolio/project-3/</guid>
+      <description>Project Requirements Coming Soon Chakachak
+Project Details Coming Soon Chakachak</description>
     </item>
     
     <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-3/</link>
+      <title>Bottle CRM</title>
+      <link>https://manasranjanpati.netlify.app/portfolio/project-2/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/portfolio/project-3/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
+      <guid>https://manasranjanpati.netlify.app/portfolio/project-2/</guid>
+      <description>Project Requirements Coming Soon Chakachak
+Project Details Coming Soon Chakachak</description>
     </item>
     
     <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-4/</link>
+      <title>Refactored Colaberry</title>
+      <link>https://manasranjanpati.netlify.app/portfolio/project-4/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/portfolio/project-4/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-5/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-5/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-6/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-6/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-7/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-7/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-8/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-8/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-9/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-9/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
+      <guid>https://manasranjanpati.netlify.app/portfolio/project-4/</guid>
+      <description>Project Requirements Coming Soon Chakachak
+Project Details Coming Soon Chakachak</description>
     </item>
     
   </channel>

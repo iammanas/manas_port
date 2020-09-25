@@ -6,7 +6,7 @@ client: "John Doe"
 project_url : "https://manasranjanpati.netlify.app/"
 categories: ["illustration","development"]
 description: "This is meta description."
-draft: false
+draft: true
 ---
 
 #### Project Requirements

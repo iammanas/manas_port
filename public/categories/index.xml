@@ -2,44 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Manas Ranjan Pati</title>
-    <link>https://maniablog.netlify.app/categories/</link>
+    <link>https://manasranjanpati.netlify.app/categories/</link>
     <description>Recent content in Categories on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://maniablog.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>branding</title>
-      <link>https://maniablog.netlify.app/categories/branding/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/categories/branding/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://manasranjanpati.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>design</title>
-      <link>https://maniablog.netlify.app/categories/design/</link>
+      <link>https://manasranjanpati.netlify.app/categories/design/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/categories/design/</guid>
+      <guid>https://manasranjanpati.netlify.app/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://maniablog.netlify.app/categories/development/</link>
+      <link>https://manasranjanpati.netlify.app/categories/development/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/categories/development/</guid>
+      <guid>https://manasranjanpati.netlify.app/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>illustration</title>
-      <link>https://maniablog.netlify.app/categories/illustration/</link>
+      <link>https://manasranjanpati.netlify.app/categories/illustration/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/categories/illustration/</guid>
+      <guid>https://manasranjanpati.netlify.app/categories/illustration/</guid>
       <description></description>
     </item>
     

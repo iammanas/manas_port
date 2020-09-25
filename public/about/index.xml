@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Manas Ranjan Pati</title>
-    <link>https://maniablog.netlify.app/about/</link>
+    <link>https://manasranjanpati.netlify.app/about/</link>
     <description>Recent content in About on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://maniablog.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://manasranjanpati.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,39 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>development on Manas Ranjan Pati</title>
-    <link>https://maniablog.netlify.app/categories/development/</link>
+    <link>https://manasranjanpati.netlify.app/categories/development/</link>
     <description>Recent content in development on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://maniablog.netlify.app/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://manasranjanpati.netlify.app/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-1/</link>
+      <link>https://manasranjanpati.netlify.app/portfolio/project-1/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
       
-      <guid>https://maniablog.netlify.app/portfolio/project-1/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-5/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-5/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://maniablog.netlify.app/portfolio/project-8/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://maniablog.netlify.app/portfolio/project-8/</guid>
-      <description>Project Requirements Coming Soon
-Project Details Coming Soon</description>
+      <guid>https://manasranjanpati.netlify.app/portfolio/project-1/</guid>
+      <description>Project Requirements Coming Soon Chakachak
+Project Details Coming Soon Chakachak</description>
     </item>
     
   </channel>

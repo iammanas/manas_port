@@ -1,6 +1,6 @@
 ---
 title: "Bottle CRM"
-date: 2019-05-12T12:14:34+06:00
+date: 2020-05-12
 image: "images/portfolio/crm.png"
 client: "Micropyramid Opensource"
 project_url : "https://bottlecrm.com/"

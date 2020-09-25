@@ -18,6 +18,16 @@ In this tutorial, we will create the Django models that define the fields and be
     </item>
     
     <item>
+      <title>Artwork Design</title>
+      <link>https://manasranjanpati.netlify.app/portfolio/project-1/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://manasranjanpati.netlify.app/portfolio/project-1/</guid>
+      <description>Project Requirements Coming Soon Chakachak
+Project Details Coming Soon Chakachak</description>
+    </item>
+    
+    <item>
       <title>Bottle CRM</title>
       <link>https://manasranjanpati.netlify.app/portfolio/project-2/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
@@ -35,16 +45,6 @@ Project Details Coming Soon Chakachak</description>
       <guid>https://manasranjanpati.netlify.app/blog/post-2/</guid>
       <description>Introduction
 Hello and welcome. Today we will learn how to comment in django application using django default Generic Relations or Generic Foreignkey.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://manasranjanpati.netlify.app/portfolio/project-1/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://manasranjanpati.netlify.app/portfolio/project-1/</guid>
-      <description>Project Requirements Coming Soon Chakachak
-Project Details Coming Soon Chakachak</description>
     </item>
     
     <item>
